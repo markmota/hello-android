@@ -82,7 +82,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng cdmx = new LatLng(19.4326077, -99.13320799999997);
-        mMap.addMarker(new MarkerOptions().position(cdmx).title("Marker in Mexico City"));
+        mMap.addMarker(new MarkerOptions().position(cdmx).title("Marker in Mexico City Cons"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(cdmx));
         mMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener(){
                 @Override
